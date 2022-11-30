@@ -15,3 +15,19 @@ describe("Books names test suit", () => {
     ]);
   });
 });
+
+describe("New tests", () => {
+  it("New test", () => {
+    expect(
+      sorting.sortByName([
+        "null",
+        "null",
+        "null",
+    ])
+    ).toEqual([
+      "null",
+      "null",
+      "null",  
+    ]);
+  });
+});
